@@ -1,0 +1,7 @@
+*{
+  font-family: 'Roboto', serif;
+}
+
+#profile-pic{
+  background-image: url("../images/profile-pic.png");
+}

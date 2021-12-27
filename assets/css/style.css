@@ -350,7 +350,7 @@ footer{
 .center-form{
     padding-top: 10px;
     margin: 0 auto;
-    max-width:70%;
+    max-width:80%;
 }
 .contact-heading{
     font-family: "Exo", sans-serif;
@@ -385,4 +385,52 @@ button[type="submit"] {
         margin: 0 auto;
         max-width:50%;
     }
+}
+
+
+
+#loader {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+
+#github-content img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#github-content-body{
+    margin-top: 30px;
+}
+
+#github-content-body li{
+    display: block;
+    border: 1px solid #42bfa5;
+    background-color: #42bfa5;
+    border-radius: 5px;
+    padding: 3px 5px;
+    float: left;
+    margin: 5px;
+}
+
+#github-content-body li:hover{
+    background-color: #f99268;
+    border: 1px solid #f99268;
+}
+
+#github-content-body a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: -5px;
+}
+
+input{
+    border: 1px solid #718792;
+    border-radius: 3px;
 }
